@@ -1,4 +1,5 @@
-pub async fn say_ephemeral<U, E>(
+/// `say_reply()` but then ephemeral.
+pub async fn say_reply_ephemeral<U, E>(
     ctx: poise::Context<'_, U, E>,
     text: impl Into<String>,
 ) -> Result<poise::ReplyHandle<'_>, serenity::Error> {
