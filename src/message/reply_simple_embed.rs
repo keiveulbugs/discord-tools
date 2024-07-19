@@ -1,6 +1,6 @@
 /// Reply a simple embed to the author.
-pub async fn reply_simple_embed<U, E>(
-    ctx: poise::Context<'_, U, E>,
+pub async fn reply_simple_embed(
+    ctx: crate::Context<'_>,
     title: impl Into<String>,
     description: impl Into<String>,
     ephemeral: bool,

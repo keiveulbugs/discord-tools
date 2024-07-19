@@ -1,5 +1,5 @@
 /// Send a simple embed.
-pub async fn reply_simple_embed<U, E>(
+pub async fn reply_simple_embed(
     cache_http: impl serenity::all::CacheHttp,
     channelid: serenity::all::ChannelId,
     title: impl Into<String>,
