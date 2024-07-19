@@ -1,0 +1,8 @@
+[package]
+name = "discord-tools"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+poise = "0.6.1"
+serenity = "0.12.2"
